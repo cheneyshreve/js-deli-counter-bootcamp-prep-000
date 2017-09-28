@@ -10,7 +10,7 @@ function takeANumber(katzDeliLine, name){
    var length = katzDeliLine.length;
    var position = katzDeliLine.indexOf(`${name}`)
    console.log(`Welcome, ${name}. You are number ${position + 1} in line.`);
-
+   var katzDeli = katzDeliLine
  return katzDeliLine
 }
 
