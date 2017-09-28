@@ -14,9 +14,6 @@ function takeANumber(katzDeliLine, name){
  return katzDeliLine
 }
 
-
-
-
 function nowServing(katzDeliLine){
  var i = 0;
  for (i = 0; i < katzDeliLine.length; i++){
