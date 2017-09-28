@@ -44,5 +44,5 @@ function currentLine(katzDeliLine){
     console.log(myString)
     return katzDeliLine
   }
- 
+
 }
