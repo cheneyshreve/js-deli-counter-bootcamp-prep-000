@@ -24,8 +24,8 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
   if ( katzDeliLine.length === 0 ) {
-    console.log(`The line is currently empty.`)
-
+    var myString = `The line is currently empty.`
+    return myString
   } else if (katzDeliLine.length > 0) {
   var i = 0;
   var array = [];
@@ -36,7 +36,7 @@ function currentLine(katzDeliLine){
     array.join()
     var str = 'The line is currently:'
     var myString = str.concat(array.toString())
-    console.log(myString)
+    return myString
 
   }
 }
