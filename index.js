@@ -7,9 +7,8 @@ var katzDeliLine = []
 function takeANumber(katzDeliLine, name){
 
    katzDeliLine.push(name);
-   var length = katzDeliLine.length;
-   var position = katzDeliLine.indexOf(`${name}`)
-   console.log(`Welcome, ${name}. You are number ${position + 1} in line.`);
+   var length = katzDeliLine.length; 
+   console.log(`Welcome, ${name}. You are number ${length} in line.`);
   
  return katzDeliLine
 }
