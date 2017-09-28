@@ -1,30 +1,21 @@
 
 
-var katzDeli = []
+
+
+var katzDeliLine = []
 
 function takeANumber(katzDeliLine, name){
 
- if (katzDeli){
-   katzDeli.push(name);
-   var line_number = katzDeli.length;
-   var hereAlready = katzDeli.indexOf(`{name}`)
+   var length = katzDeliLine.length;
 
-   if (hereAlready >= 0 ){
-    console.log(`Welcome, ${name}. You are number ${hereAlready} in line.`);
-    console.log(`in condition one`)
-   } else if (hereAlready < 0 ){
-     console.log(`Welcome, ${name}. You are number ${line_number} in line.`)
-     console.log(`in condition two`)
-   }
+   katzDeliLine.push(name)
+   var position = katzDeliLine.indexOf(`${name}`)
+   console.log(`Welcome, ${name}. You are number ${position + 1} in line.`);
 
- } else if (otherDeli){
-   otherDeli.push(name);
-   var line_num = otherDeli.length;
-   console.log(`Welcome, ${name}. You are number ${line_num} in line.`)
-   console.log(`in condition three`)
- }
-
+ return katzDeliLine
 }
+
+
 
 
 function nowServing(katzDeliLine){
