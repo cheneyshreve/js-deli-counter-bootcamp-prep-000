@@ -14,16 +14,14 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
- var i = 0;
- for (i = 0; i < katzDeliLine.length; i++){
+  
     if (katzDeliLine.length > 0 )  {
-     console.log(`Now serving ${katzDeliLine[i]}`)
+     console.log(`Now serving ${katzDeliLine[0]}`)
      katzDeliLine.shift()
    } else if (katzDeliLine.length < 1) {
      console.log(`There is nobody waiting to be served!`)
    }
    return katzDeliLine
- }
 }
 
 
