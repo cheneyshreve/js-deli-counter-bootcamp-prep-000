@@ -41,7 +41,7 @@ function currentLine(katzDeliLine){
     return myString
   }
 
-    if ( katzDeliLine.length === 0 ){
+    if ( katzDeliLine.length === 0 ) {
       console.log(`The line is currently empty.`)
     } else if (katzDeliLine.length > 0) {
      console.log(myString)
