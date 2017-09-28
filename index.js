@@ -42,6 +42,7 @@ function currentLine(katzDeliLine){
     var str = 'The line is currently:'
     var myString = str.concat(array.toString())
     console.log(myString)
+    return katzDeliLine
   }
- return katzDeliLine
+ 
 }
